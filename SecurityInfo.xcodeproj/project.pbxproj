@@ -21,6 +21,16 @@
 		EC024658180BDFAD00545E48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC02463A180BDFAD00545E48 /* UIKit.framework */; };
 		EC024660180BDFAD00545E48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC02465E180BDFAD00545E48 /* InfoPlist.strings */; };
 		EC024662180BDFAD00545E48 /* SecurityInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC024661180BDFAD00545E48 /* SecurityInfoTests.m */; };
+		EC02466C180BE5BA00545E48 /* unwritten 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC02466B180BE5BA00545E48 /* unwritten 2.png */; };
+		EC02466E180BE62000545E48 /*  writteng 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC02466D180BE62000545E48 /*  writteng 2.png */; };
+		EC024670180BE66500545E48 /* writtenb 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC02466F180BE66500545E48 /* writtenb 2.png */; };
+		EC024672180BF2F500545E48 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC024671180BF2F500545E48 /* click.mp3 */; };
+		EC024674180BF31800545E48 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC024673180BF31800545E48 /* AudioToolbox.framework */; };
+		EC99F1EB180D51E800676273 /* hamon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC99F1EA180D51E800676273 /* hamon 2.png */; };
+		EC99F1F1180D688A00676273 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC99F1F0180D688A00676273 /* TabViewController.m */; };
+		EC99F1F4180D716200676273 /* PicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC99F1F3180D716200676273 /* PicturesViewController.m */; };
+		ECD50EC8180BF9CA0018E156 /* TapPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD50EC7180BF9CA0018E156 /* TapPassViewController.m */; };
+		ECD50ECA180C25C20018E156 /*  tapplace.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD50EC9180C25C20018E156 /*  tapplace.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,19 @@
 		EC02465D180BDFAD00545E48 /* SecurityInfoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecurityInfoTests-Info.plist"; sourceTree = "<group>"; };
 		EC02465F180BDFAD00545E48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC024661180BDFAD00545E48 /* SecurityInfoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityInfoTests.m; sourceTree = "<group>"; };
+		EC02466B180BE5BA00545E48 /* unwritten 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unwritten 2.png"; sourceTree = "<group>"; };
+		EC02466D180BE62000545E48 /*  writteng 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " writteng 2.png"; sourceTree = "<group>"; };
+		EC02466F180BE66500545E48 /* writtenb 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "writtenb 2.png"; sourceTree = "<group>"; };
+		EC024671180BF2F500545E48 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		EC024673180BF31800545E48 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC99F1EA180D51E800676273 /* hamon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamon 2.png"; sourceTree = "<group>"; };
+		EC99F1EF180D688A00676273 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		EC99F1F0180D688A00676273 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		EC99F1F2180D716200676273 /* PicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicturesViewController.h; sourceTree = "<group>"; };
+		EC99F1F3180D716200676273 /* PicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicturesViewController.m; sourceTree = "<group>"; };
+		ECD50EC6180BF9CA0018E156 /* TapPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapPassViewController.h; sourceTree = "<group>"; };
+		ECD50EC7180BF9CA0018E156 /* TapPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapPassViewController.m; sourceTree = "<group>"; };
+		ECD50EC9180C25C20018E156 /*  tapplace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " tapplace.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC024674180BF31800545E48 /* AudioToolbox.framework in Frameworks */,
 				EC024639180BDFAD00545E48 /* CoreGraphics.framework in Frameworks */,
 				EC02463B180BDFAD00545E48 /* UIKit.framework in Frameworks */,
 				EC024637180BDFAD00545E48 /* Foundation.framework in Frameworks */,
@@ -101,6 +125,7 @@
 		EC024635180BDFAD00545E48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC024673180BF31800545E48 /* AudioToolbox.framework */,
 				EC024636180BDFAD00545E48 /* Foundation.framework */,
 				EC024638180BDFAD00545E48 /* CoreGraphics.framework */,
 				EC02463A180BDFAD00545E48 /* UIKit.framework */,
@@ -112,11 +137,19 @@
 		EC02463C180BDFAD00545E48 /* SecurityInfo */ = {
 			isa = PBXGroup;
 			children = (
+				ECD50ECB180C25C80018E156 /* images */,
+				EC024671180BF2F500545E48 /* click.mp3 */,
 				EC024645180BDFAD00545E48 /* AppDelegate.h */,
 				EC024646180BDFAD00545E48 /* AppDelegate.m */,
 				EC024648180BDFAD00545E48 /* Main.storyboard */,
 				EC02464B180BDFAD00545E48 /* ViewController.h */,
 				EC02464C180BDFAD00545E48 /* ViewController.m */,
+				ECD50EC6180BF9CA0018E156 /* TapPassViewController.h */,
+				ECD50EC7180BF9CA0018E156 /* TapPassViewController.m */,
+				EC99F1F2180D716200676273 /* PicturesViewController.h */,
+				EC99F1F3180D716200676273 /* PicturesViewController.m */,
+				EC99F1EF180D688A00676273 /* TabViewController.h */,
+				EC99F1F0180D688A00676273 /* TabViewController.m */,
 				EC02464E180BDFAD00545E48 /* Images.xcassets */,
 				EC02463D180BDFAD00545E48 /* Supporting Files */,
 			);
@@ -150,6 +183,18 @@
 				EC02465E180BDFAD00545E48 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECD50ECB180C25C80018E156 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EC99F1EA180D51E800676273 /* hamon 2.png */,
+				ECD50EC9180C25C20018E156 /*  tapplace.png */,
+				EC02466B180BE5BA00545E48 /* unwritten 2.png */,
+				EC02466D180BE62000545E48 /*  writteng 2.png */,
+				EC02466F180BE66500545E48 /* writtenb 2.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC024672180BF2F500545E48 /* click.mp3 in Resources */,
+				EC024670180BE66500545E48 /* writtenb 2.png in Resources */,
+				ECD50ECA180C25C20018E156 /*  tapplace.png in Resources */,
+				EC02466C180BE5BA00545E48 /* unwritten 2.png in Resources */,
+				EC99F1EB180D51E800676273 /* hamon 2.png in Resources */,
+				EC02466E180BE62000545E48 /*  writteng 2.png in Resources */,
 				EC02464F180BDFAD00545E48 /* Images.xcassets in Resources */,
 				EC024641180BDFAD00545E48 /* InfoPlist.strings in Resources */,
 				EC02464A180BDFAD00545E48 /* Main.storyboard in Resources */,
@@ -249,7 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC99F1F1180D688A00676273 /* TabViewController.m in Sources */,
 				EC02464D180BDFAD00545E48 /* ViewController.m in Sources */,
+				ECD50EC8180BF9CA0018E156 /* TapPassViewController.m in Sources */,
+				EC99F1F4180D716200676273 /* PicturesViewController.m in Sources */,
 				EC024647180BDFAD00545E48 /* AppDelegate.m in Sources */,
 				EC024643180BDFAD00545E48 /* main.m in Sources */,
 			);
@@ -460,6 +514,7 @@
 				EC024667180BDFAD00545E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC024668180BDFAD00545E48 /* Build configuration list for PBXNativeTarget "SecurityInfoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +523,7 @@
 				EC02466A180BDFAD00545E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
