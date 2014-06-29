@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
     tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(view_Tapped:)];
     
     // ビューにジェスチャーを追加
